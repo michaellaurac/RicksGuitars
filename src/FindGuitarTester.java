@@ -31,6 +31,14 @@ public class FindGuitarTester {
     }
 
     public static void initializeInventory(Inventory inventory) {
-
+        inventory.addGuitar(
+                "V95693",
+                1499.95,
+                "Fender",
+                "Stratocastor",
+                "electric",
+                "Alder",
+                "Alder"
+        );
     }
 }
