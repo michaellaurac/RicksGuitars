@@ -5,7 +5,7 @@ import java.util.List;
 public class Inventory {
     private List<Guitar> guitars;
 
-    private Inventory() {
+    public Inventory() {
         guitars = new LinkedList<Guitar>();
     }
 
