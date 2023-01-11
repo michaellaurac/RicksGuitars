@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37ef1b9e-01c9-40ff-b06d-e25d0836bb9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FindGuitarTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Wood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindGuitarTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindGuitarTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindGuitarTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindGuitarTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inventory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inventory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -41,17 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

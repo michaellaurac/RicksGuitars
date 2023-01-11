@@ -7,11 +7,11 @@ public class FindGuitarTester {
         Guitar whatErinLikes = new Guitar(
                 "",
                 0,
-                "fender",
+                Builder.FENDER,
                 "Stratocastor",
-                "electric",
-                "Alder",
-                "Alder"
+                Type.ELECTRIC,
+                Wood.ALDER,
+                Wood.ALDER
         );
 
         Guitar guitar = inventory.search(whatErinLikes);
@@ -20,8 +20,8 @@ public class FindGuitarTester {
                     "Erin, you might like this " +
                     guitar.getBuilder() + " " +
                     guitar.getModel() + " " +
-                    guitar.getType() + " guitar:\n   " +
-                    guitar.getBackWood() + " back and sides,\n" +
+                    guitar.getType() + " guitar:\n" +
+                    guitar.getBackWood() + " back and sides. " +
                     guitar.getTopWood() + " top.\n" +
                     "You can have it for only $" + guitar.getPrice() + "!"
             );
@@ -34,11 +34,11 @@ public class FindGuitarTester {
         inventory.addGuitar(
                 "V95693",
                 1499.95,
-                "Fender",
+                Builder.FENDER,
                 "Stratocastor",
-                "electric",
-                "Alder",
-                "Alder"
+                Type.ELECTRIC,
+                Wood.ALDER,
+                Wood.ALDER
         );
     }
 }
