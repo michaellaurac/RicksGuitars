@@ -38,7 +38,8 @@ public class Inventory {
         return null;
     }
 
-    public Guitar search(Guitar searchGuitar) {
+    public List<Guitar> search(Guitar searchGuitar) {
+        List<Guitar> matchingGuitars = new LinkedList<>();
         for (Guitar guitar : guitars) {
             // Ignore serial number since that's unique
             // Ignore price since that's unique
@@ -53,9 +54,9 @@ public class Inventory {
                 continue;
             if (searchGuitar.getTopWood() != guitar.getTopWood())
                 continue;
-            return guitar;
+            matchingGuitars.add(guitar);
         }
-        return null;
+        return matchingGuitars;
     }
 }
 
