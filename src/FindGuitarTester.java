@@ -10,6 +10,7 @@ public class FindGuitarTester {
                 Builder.FENDER,
                 "Stratocastor",
                 Type.ELECTRIC,
+                6,
                 Wood.ALDER,
                 Wood.ALDER
         );
@@ -22,6 +23,7 @@ public class FindGuitarTester {
                 System.out.println("  We have a " +
                         spec.getBuilder() + " " +
                         spec.getModel() + " " +
+                        spec.getNumStrings() + "-string " +
                         spec.getType() + " guitar:\n  " +
                         spec.getBackWood() + " back and sides. " +
                         spec.getTopWood() + " top.\n  " +
@@ -38,6 +40,7 @@ public class FindGuitarTester {
                 Builder.FENDER,
                 "Stratocastor",
                 Type.ELECTRIC,
+                6,
                 Wood.ALDER,
                 Wood.ALDER
         );
@@ -45,7 +48,7 @@ public class FindGuitarTester {
         inventory.addGuitar(
                 "V95693",
                 stratocastor,
-                1499.95
+                1497.95
 
         );
         inventory.addGuitar(

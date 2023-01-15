@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="37ef1b9e-01c9-40ff-b06d-e25d0836bb9b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindGuitarTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindGuitarTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuitarSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuitarSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inventory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
