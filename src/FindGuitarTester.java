@@ -8,7 +8,7 @@ public class FindGuitarTester {
 
         GuitarSpec whatErinLikes = new GuitarSpec(
                 Builder.FENDER,
-                "Stratocastor",
+                "stratocastor",
                 Type.ELECTRIC,
                 6,
                 Wood.ALDER,
@@ -48,7 +48,7 @@ public class FindGuitarTester {
         inventory.addGuitar(
                 "V95693",
                 stratocastor,
-                1497.95
+                1499.95
 
         );
         inventory.addGuitar(

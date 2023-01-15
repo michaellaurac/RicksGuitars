@@ -48,7 +48,7 @@ public class GuitarSpec {
     public boolean matches(GuitarSpec otherSpec) {
         if (builder != otherSpec.builder)
             return false;
-        if ((!model.equals("")) && (!model.equals(otherSpec.model)))
+        if ((!model.equals("")) && (!model.toLowerCase().equals(otherSpec.model.toLowerCase())))
             return false;
         if (type != otherSpec.type)
             return false;
